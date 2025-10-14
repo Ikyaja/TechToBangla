@@ -1,0 +1,13 @@
+python-telegram-bot==20.7
+python-binance==1.0.19
+pandas==2.1.4
+numpy==1.24.4
+ta==0.10.2
+requests==2.31.0
+asyncio
+aiohttp==3.9.1
+python-dotenv==1.0.0
+matplotlib==3.8.2
+plotly==5.17.0
+websocket-client==1.6.4
+schedule==1.2.0
