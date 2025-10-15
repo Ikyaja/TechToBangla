@@ -1,0 +1,98 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║              🔥 CARA PALING MUDAH INSTALL BOT V6! 🔥                    ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+✅ SAYA SUDAH BUAT INSTALLER OTOMATIS!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 LANGKAH 1: JALANKAN INSTALLER (Di workspace ini)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COPY & PASTE command ini:
+
+    bash /workspace/INSTALL_V6_SIMPLE.sh
+
+ENTER!
+
+Wait 2-3 menit... Bot akan ter-install otomatis! ⏳
+
+✅ SELESAI!
+
+Bot ter-install di: ~/bot_v6_ultimate/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 LANGKAH 2: EDIT CONFIG
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    nano ~/bot_v6_ultimate/config/.env
+
+Ganti baris ini:
+
+    TELEGRAM_BOT_TOKEN=YOUR_TOKEN_HERE
+
+Jadi (contoh):
+
+    TELEGRAM_BOT_TOKEN=8285776454:AAE2lg7Lrkc0e7dVNFTMPef_dZEQ6JK4Wko
+
+Save: Ctrl+O, Enter, Ctrl+X
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 LANGKAH 3: JALANKAN BOT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    cd ~/bot_v6_ultimate
+    ./run_bot.sh
+
+✅ BOT RUNNING! 🎉
+
+Test di Telegram - send: /start
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ TOTAL: 3 COMMAND!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. bash /workspace/INSTALL_V6_SIMPLE.sh    (Install otomatis)
+2. nano ~/bot_v6_ultimate/config/.env      (Edit token)
+3. cd ~/bot_v6_ultimate && ./run_bot.sh    (Run!)
+
+DONE! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 Paling mudah kan? Tinggal 3 command! 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+💡 KALAU MAU INSTALL DI UBUNTU SERVER:
+
+1. Copy file INSTALL_V6_SIMPLE.sh ke server:
+   scp /workspace/INSTALL_V6_SIMPLE.sh user@server-ip:~/
+
+2. SSH ke server:
+   ssh user@server-ip
+
+3. Jalankan installer:
+   bash ~/INSTALL_V6_SIMPLE.sh
+
+4. Edit config:
+   nano ~/bot_v6_ultimate/config/.env
+
+5. Run bot:
+   cd ~/bot_v6_ultimate && ./run_bot.sh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Super mudah! Tidak perlu GitHub! 🔥
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

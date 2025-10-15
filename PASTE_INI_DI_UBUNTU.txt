@@ -1,0 +1,82 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║          🔥 COPY-PASTE COMMAND INI DI UBUNTU! 🔥                        ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+📋 KARENA SAYA TIDAK PUNYA AKSES GITHUB ANDA, ADA 2 CARA:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 CARA 1: VIA GITHUB (Recommended - Install jadi 1 command!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A. Di komputer/workspace Anda (sekali saja - 5 menit):
+
+   1. Buat repo di: https://github.com/new
+      Name: ai-future-signal-bot-v6
+      
+   2. Run ini di workspace:
+   
+cd /workspace/bot_v6_ultimate && git init && git add . && git commit -m "V6 Ultimate" && git remote add origin https://github.com/YOUR_USERNAME/ai-future-signal-bot-v6.git && git push -u origin main
+
+   [Ganti YOUR_USERNAME dengan username GitHub Anda!]
+
+B. Setelah itu, SELAMANYA di Ubuntu manapun, paste ini:
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ PASTE INI DI UBUNTU TERMINAL (GANTI YOUR_USERNAME!):                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+bash <(curl -s https://raw.githubusercontent.com/YOUR_USERNAME/ai-future-signal-bot-v6/main/install.sh) && cd ai-future-signal-bot-v6 && cp config/.env.example config/.env && nano config/.env
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 CARA 2: TANPA GITHUB (Langsung SCP)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A. Di workspace Anda, copy ke server (GANTI user & SERVER_IP!):
+
+scp -r /workspace/bot_v6_ultimate user@SERVER_IP:~/bot_v6
+
+Contoh:
+scp -r /workspace/bot_v6_ultimate ubuntu@192.168.1.100:~/bot_v6
+
+B. Di Ubuntu server, paste ini:
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ PASTE INI DI UBUNTU TERMINAL:                                        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+cd ~/bot_v6 && python3.10 -m venv venv && source venv/bin/activate && pip install --upgrade pip --quiet && pip install python-telegram-bot==20.7 python-binance==1.0.19 python-dotenv==1.0.0 aiohttp==3.9.1 requests==2.31.0 --quiet && pip install pandas==2.0.3 numpy==1.24.4 --quiet 2>/dev/null && echo "✅ Installed! Edit config/.env then run: python3 main.py"
+
+C. Edit config dan run:
+
+nano config/.env
+# Ganti YOUR_TOKEN_HERE dengan token Anda
+# Save: Ctrl+O, Enter, Ctrl+X
+
+source venv/bin/activate
+python3 main.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 SAYA SARANKAN: PAKAI CARA 1 (GitHub)!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Kenapa?
+- Install di server manapun jadi 1 command
+- Easy update dengan git pull
+- Professional
+- Cloud backup otomatis
+
+Setup GitHub hanya 5 menit SEKALI, tapi manfaatnya SELAMANYA! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 Baca detail di: /workspace/GITHUB_SETUP_GUIDE.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
